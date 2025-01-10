@@ -31,11 +31,16 @@ NumPy for numerical operations
 Installation
 
 Prerequisites
+
 Python 3.x installed on your machine.
+
 Required Python packages (listed in requirements.txt).
+
 Ensure you have the necessary libraries for video processing.
+
 Clone the Repository
-bash git clone 
+
+bash git clone  https://github.com/Siriakana/Revers-video-app.git
 
 Set Up the Backend
 Create a virtual environment (optional but recommended):
