@@ -1,14 +1,15 @@
 # Revers-video-app
 
-Overview
+#Overview
 The Reverse Video App allows users to upload a video, which is then processed to create a reversed version of the video. The application utilizes a Flask backend with Python for video processing, and a responsive frontend built with HTML, CSS, and JavaScript.
 
-Features
+#Features
 Upload a video file for reversal.
 Process the video on the server side.
 Play the reversed video directly in the browser.
 Responsive design suitable for various devices.
-Technologies Used
+
+#Technologies Used
 Frontend:
 HTML
 CSS
@@ -20,15 +21,16 @@ OpenCV for video frame manipulation
 MoviePy for audio handling and video writing
 Other Libraries:
 NumPy for numerical operations
-Installation
+
+#Installation
 Prerequisites
 Python 3.x installed on your machine.
 Required Python packages (listed in requirements.txt).
 Ensure you have the necessary libraries for video processing.
 Clone the Repository
-bash git clone https://github.com/Sathwik9418/reverse-video-app.git cd reverse-video-app
+bash git clone 
 
-Set Up the Backend
+#Set Up the Backend
 Create a virtual environment (optional but recommended):
 
 bash python -m venv venv source venv/bin/activate # On Windows use venv\Scripts\activate
@@ -37,7 +39,7 @@ Install the required Python packages:
 
 bash pip install -r requirements.txt
 
-Run the Application
+#Run the Application
 Start the Flask server:
 
 bash python app.py
